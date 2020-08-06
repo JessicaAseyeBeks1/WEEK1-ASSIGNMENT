@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form Practice</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+fieldset{
+    display:flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+}
+
+
+.inputfield{
+    width: 80%;
+    padding: 15px;
+    margin:0 5px;
+    box-sizing: border-box;
+    
+}
+
+button{
+    margin-top: 5px;
+    background-color: green;
+}
+
+textarea{
+    height: 100px;
+}
+
+label{
+    margin-top: 5px;
+}
+    </style>
+</head>
+
+
+
+<body>
+    <form>
+        <!-- Personal Information -->
+        <fieldset>
+           
+                <label>First Name</label>
+                
+                <input class="inputfield" type="text" name= "firstname" placeholder="Your name">
+
+            
+            
+            
+                <label>Last Name</label>
+                
+                <input class="inputfield" type="text" name="Lastname" placeholder="Your last name">
+            
+            
+            
+                <label>Country</label>
+            
+                <select class="inputfield" > 
+                    <option value="">Ghana</option>
+                    <option value="">Mali</option>
+                    <option value="">Nigeria</option>
+                </select>
+
+            
+            
+                <label>Subject</label>
+                
+                <textarea class="inputfield" >Write something</textarea>
+            
+         
+
+            <button>submit</button>
+        </fieldset>
+
+    
+    </form>
+</body>
+</html>
